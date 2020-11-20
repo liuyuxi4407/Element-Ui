@@ -1,28 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <!-- <layout/> 
+   <container/>
+   <froms/>-->
+   <silder/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import layout from "./components/layout.vue";
+import container from "./components/container.vue"
+import froms from "./components/froms.vue"
+import silder from "./components/silder.vue"
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    layout,
+    container,
+    froms,silder
   }
-}
+};
 </script>
 
 <style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
