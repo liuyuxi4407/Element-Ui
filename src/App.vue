@@ -4,7 +4,9 @@
    <container/>
    <froms/>
    <silder/>-->
-   <carrousel/>
+   <!-- <carrousel/> 
+   <tabs/>-->
+   <swipers/>
   </div>
 </template>
 
@@ -14,13 +16,18 @@ import container from "./components/container.vue"
 import froms from "./components/froms.vue"
 import silder from "./components/silder.vue"
 import carrousel from "./components/s_tab.vue"
+import Tabs from "./components/tabs/Tabs"
+import Swiper from "./components/swiper/swipers"
+import Swipers from './components/swiper/swipers.vue';
 export default {
   name: "App",
   components: {
     layout,
     container,
     froms,silder,
-    carrousel
+    carrousel,
+    Tabs,
+    Swipers
   }
 };
 </script>
